@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess a Number</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f5f5f5;
+      }
+      h1 {
+        color: #333;
+      }
+      input,
+      button {
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .hint {
+        color: red;
+        margin-top: 10px;
+      }
+      #prev,
+      #remaining {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Guess a Number</h1>
+    <input id="input" type="number" placeholder="Enter your guess" />
+    <button>Submit</button>
+    <h3 id="hint" class="hint"></h3>
+    <h3 id="prev">Previous values:</h3>
+    <h3 id="remaining">Remaining guesses: 10</h3>
+    <script src="script.js"></script>
+  </body>
+</html>
