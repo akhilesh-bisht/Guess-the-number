@@ -1,5 +1,7 @@
 # Guess-the-number
 
+# play : https://guess-the-number-9zkm.vercel.app/
+
 # Guess a Number Game
 
 A simple and interactive number guessing game where the user has 10 attempts to guess a randomly generated number between 1 and 100. The user will receive hints if their guess is too high or too low.
